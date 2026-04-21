@@ -14,15 +14,6 @@ export default function Hero() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-morphism border border-white/10 text-secondary text-sm font-medium mb-8"
-        >
-          <Sparkles size={16} />
-          <span>Innovating the Digital Frontier</span>
-        </motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}

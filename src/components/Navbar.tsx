@@ -34,8 +34,8 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center glow-shadow group-hover:scale-110 transition-transform">
-            <Cpu className="text-white w-6 h-6" />
+          <div className="w-10 h-10 group-hover:scale-110 transition-transform overflow-hidden rounded-lg border border-white/10">
+            <img src="/logo.png" alt="Advanced Web Logo" className="w-full h-full object-cover" />
           </div>
           <span className="text-xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">
             ADVANCED<span className="text-secondary">WEB</span>
